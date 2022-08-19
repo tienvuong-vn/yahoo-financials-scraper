@@ -53,3 +53,11 @@ Financials:
 - ticker.cashflow_api (anual + trailing)
 - ticker.quarterly_cashflow_api (quaterly + trailing)
 
+How to use:
+
+Example:
+
+import yh-financials-scraper as yf
+ticker = yf.Ticker(symbol)
+info = ticker.info
+
