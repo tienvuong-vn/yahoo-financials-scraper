@@ -20,6 +20,7 @@ This package can get:
 - Holders
 
 Suported:
+
 Profile:
 - ticker.info
 - ticker.key_executives
