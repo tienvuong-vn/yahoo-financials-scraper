@@ -61,4 +61,8 @@ Example:
     
     ticker = yf.Ticker(symbol)
     info = ticker.info
+    incomeAnunal = ticker.financials_api
+    insiderLastSixMonth = ticker.insider_tran_last_six
+    insiderTranPurchase = ticker.insider_tran_purchases = None
+    insiderTranReported = ticker.insider_tran_reported = None
 
