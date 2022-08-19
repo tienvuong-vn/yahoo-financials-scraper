@@ -58,6 +58,7 @@ How to use:
 Example:
 
     import yh-financials-scraper as yf
+    
     ticker = yf.Ticker(symbol)
     info = ticker.info
 
