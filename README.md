@@ -59,10 +59,10 @@ Example:
 
     import yh-financials-scraper as yf
     
-    ticker = yf.Ticker(symbol)
+    ticker = yf.Ticker('AAPL')
     info = ticker.info
     incomeAnunal = ticker.financials_api
     insiderLastSixMonth = ticker.insider_tran_last_six
-    insiderTranPurchase = ticker.insider_tran_purchases = None
-    insiderTranReported = ticker.insider_tran_reported = None
+    insiderTranPurchase = ticker.insider_tran_purchases
+    insiderTranReported = ticker.insider_tran_reported
 
