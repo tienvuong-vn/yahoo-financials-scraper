@@ -69,4 +69,6 @@ Data output JSON:
             }
         }
     }
+Example data:
 
+[fundamentals.json.zip](https://github.com/tienvuong-vn/yahoo-financials-scraper/files/9400607/fundamentals.json.zip)
